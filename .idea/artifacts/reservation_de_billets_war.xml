@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="reservation_de_billets:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>reservation_de_billets</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="reservation_de_billets-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="reservation_de_billets:war exploded" />
+    </root>
+  </artifact>
+</component>
